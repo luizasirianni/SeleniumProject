@@ -36,7 +36,7 @@ driver.get('file:///D:/python/aaaaaaaaaaaaaaaaa/pythonProject/iFrames/iFrames_ex
 
 '''Button inside an iFrame - using index '''
 
-driver.switch_to.frame(0) #switch to the first frame. The html example has 2 iFrames
+driver.switch_to.frame(0)#switch to the first frame. The html example has 2 iFrames
 driver.find_element(By.ID, 'btnInFrame').click()
 print(driver.switch_to.alert.text)
 time.sleep(2)
